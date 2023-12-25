@@ -1,38 +1,44 @@
-cl<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      button
+      {
+        outline: none;
+        border: none;
+        background-color: #000;
+        color: #fff;
+        width: 150px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: 600;
+        border-radius: 5px;
+      }
+      body
+      {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
 </head>
-<body style="display: flex;align-items: center;flex-direction: column;">
-  
-
-
-
-    <h1 class="hy">
-    Hello world
-    </h1>
-    <p id="ankit">Ankit</p>
-    <h2 class="hy">Class no2</h2>
-    <span>span tag</span>
-    <h3>h3 elemenmt</h3>
-    <h6 class="h6">h6 elemenmt</h6>
-
-    <div class="container">
-        <h1 class="king">
-            <a href="" style="color: gold; text-decoration: none;">Hello World</a>
-        </h1>
-        <hr id="hr">
-    </div>
-
-     <div class="btncontainer">
-        <button id="btn" onclick="here()">Click Here</button>
-     </div>
-
-
-
-    <script src="script.js"></script>
+<body style="background-color: rgb(159, 158, 158);">
+  <div id="d">
+    <button id="hello1">hello1</button>
+    <br>
+    <br>
+    <button id="hello2">hello2</button>
+    <br>
+    <br>
+    <button id="hello3">hello3</button>
+    <br>
+  </div>
+<script src="script.js"></script>
 </body>
 </html>
