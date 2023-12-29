@@ -70,6 +70,11 @@ let pess=document.querySelector("#pess")
 let lugg=document.querySelector("#lugg")
 let child=document.querySelector("#child")
 let dis=document.querySelector("#dis")
+//fudgbvjdgv
+let pess1=document.querySelector("#pess1")
+let lugg1=document.querySelector("#lugg1")
+let child1=document.querySelector("#child1")
+let dis1=document.querySelector("#dis1")
 sub.addEventListener('click', function(){
     var total=num.innerText;
 
@@ -78,23 +83,54 @@ sub.addEventListener('click', function(){
     var total3=num3.innerText;
     var amt3=total3*80;
     var kmtotal=document.querySelector("#number").value
+
  if(kmtotal<=100 )
-    {
+    {      
+        var k1=12;
+        var t1=250;
+        var tt1=150;
+        var ch1=80;     
         var amt4=kmtotal*12;
         var amt=total*250;
         var amt2=total2*150;
+
+
+        pess1.innerText=t1+"*";
+        lugg1.innerText=tt1+"*";
+        child1.innerText=ch1+"*";
+        dis1.innerText=k1+"*";
+
+
     }
     else if(kmtotal<=200 )
     {
+        var k1=22;
+        var t1=350;
+        var tt1=200;
+        var ch1=80;  
+
         var amt4=kmtotal*22;
         var amt=  total*350;
         var amt2=total2*200;
+        
+        pess1.innerText=t1+"*";
+        lugg1.innerText=tt1+"*";
+        child1.innerText=ch1+"*";
+        dis1.innerText=k1+"*";
     }
     else if(kmtotal<=300 )
     {
+        var k1=31;
+        var t1=500;
+        var tt1=250;
+        var ch1=80; 
         var amt4=kmtotal*31;
         var amt=  total*500;
         var amt2=total2*250;
+        pess1.innerText=t1+"*";
+        lugg1.innerText=tt1+"*";
+        child1.innerText=ch1+"*";
+        dis1.innerText=k1+"*";
     }
 
     else
@@ -108,7 +144,7 @@ sub.addEventListener('click', function(){
      lugg.innerText=amt2;
      child.innerText=amt3;
      dis.innerText=amt4;
-     totalamount.style.left="37%";
+     totalamount.style.left="30%";
      totalamount.style.transition="all .9s"
 })
 

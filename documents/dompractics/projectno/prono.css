@@ -108,8 +108,8 @@ body
 }
 .totalamt
 {
-    width: 400px;
-    height: 350px;
+    width: 611px;
+    height: 525px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,6 +164,7 @@ body
 {
     display: flex;
     font-family: system-ui;
+    gap: 40px;
 }
 #reset
 {
@@ -199,10 +200,31 @@ body
 }
 .upperpart
 {
-    width: 100%;
+    width: 75%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 21px;
+}
+.lowerpart
+{
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.pessanger1 h1,.luggage1 h1,.children1 h1,.diss1 h1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    align-items: center;
+    font-family: math;
+    font-size: 22px;
+}
+.pessanger1 h1 a,.luggage1 h1 a,.children1 h1 a,.diss1 h1 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
 }
