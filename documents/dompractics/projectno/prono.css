@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maincontainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444c4c;
+}
+
+.div1
+{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.div1 span
+{
+    width: 75px ;
+    height: 50px;
+    font-size: 35px;
+    font-weight:600 ;
+    font-family: math;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.num,.num2,.num3
+{
+    border-left: 2px solid #3a3838;
+    border-right: 2px solid #3a3838;
+}
+#p
+{
+    display: flex;
+    width: 138px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.column1,.column2
+{
+    display: flex;
+}
+.minicontainer
+{
+    display: flex;
+    border: 2px solid #000;
+}
+.title h1
+{
+    margin: 20px;
+}
+#number
+{
+    border: none;
+    border: 2px solid #000;
+    outline: none;
+    font-size: 18px;
+    height: 27px;
+    width: 199px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+}
+.disstance h1{
+    margin: 10px;
+}
+::placeholder
+{
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#submit
+{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-size:20px ;
+    font-weight: 600;
+    border-radius:5px;
+    border: none;
+    margin: 20px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.totalamt
+{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    position: absolute;
+    top: 70%;
+    left: -100%;
+    transition: all.9s;
+    gap: 27px;
+}
+.cross
+{
+    cursor: pointer;
+    width: 87%;
+    justify-content: end;
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+}
+#pess,#lugg,#child,#dis
+{
+    text-decoration: none;
+    font-size: 19px;
+    color: #000;
+    margin-bottom: 5px;
+}
+.pessenger h1
+{
+    font-size: 15px;
+}
+.pessenger
+{
+    display: flex;
+    align-items: center;
+}
+.pessanger,.luggage,.children,.diss,.total
+{
+    width: 90%;
+
+}
+.pessanger h1,.luggage h1,.children h1,.diss h1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+    align-items: center;
+    font-family: monospace;
+}
+.total h2
+{
+    display: flex;
+    font-family: system-ui;
+}
+#reset
+{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: green;
+}
+#reset a
+{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 800px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btncontainer
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.upperpart
+{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+}

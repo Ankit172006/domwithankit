@@ -139,28 +139,28 @@ let div=document.querySelector("#d")
 let h1=document.createElement("h1")
 h1.textContent="Ankit";
 let i=1;
-document.body.style.transition=".9s"
+document.body.style.transition="all .9s"
 a1.addEventListener("click",function b1(){
 // document.body.style.backgroundColor="#2d2d2d"
 // document.body.style.transition=".9s"
 if(i==1)
 {
    document.body.style.backgroundImage="url(../image/index1img.jpeg)"
-   document.body.style.transition=".9s" 
+   document.body.style.transition="all .9s" 
 //    a2.style.display="none"
    i=2;
 }
 else if(i==2)
 {
     document.body.style.backgroundImage="url(../image/in.jpeg)"
-    document.body.style.transition=".9s" 
+    document.body.style.transition="all .9s" 
     // a3.style.display="none"
     i=3;
 }
 else
 {
     document.body.style.backgroundImage="url(../image/index3img.jpeg)"
-    document.body.style.transition=".9s" 
+    document.body.style.transition="all .9s" 
     a3.style.display="block"
     a2.style.display="block"
     i=1;  
@@ -168,9 +168,9 @@ else
 
 })
 
-a2.addEventListener("click",function b2(){
+    a2.addEventListener("click",function b2(){
     document.body.style.backgroundImage="url(../image/index4img.jpeg)"
-document.body.style.transition=".9s"
+    document.body.style.transition="all .9s"
 })
 // a3.addEventListener("click",function b3(){
 //     document.body.style.backgroundImage="url(../image/index5img.jpeg)"
@@ -179,9 +179,21 @@ document.body.style.transition=".9s"
 
 a3.onclick=function b3(){
         document.body.style.backgroundImage="url(../image/index5img.jpeg)"
-document.body.style.transition=".9s"       
+        document.body.style.transition="all .9s"       
      }
 
-document.body.style.color="gray"
+     let d=document.querySelector("#d");
+     let n1=document.createElement("button")
+     n1.style.marginTop="15px"
+     n1.innerHTML="Ankit"
+     d.append(n1)
+     n1.addEventListener("click",function b3(){
+     document.body.style.backgroundImage="url(https:// encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVk3H7Mj9VFWQFrKc0r2OcrCjRipQzX2wPWQ&usqp=CAU)"
+     document.body.style.transition=".9s"
+})
 
-
+// n1.onclick=function b4(){
+//         document.body.style.backgroundImage="url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVk3H7Mj9VFWQFrKc0r2OcrCjRipQzX2wPWQ&usqp=CAU)"
+//         document.body.style.transition="all .9s"
+//         document.body.style.backgroundColor="none"
+//     }
