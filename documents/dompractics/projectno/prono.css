@@ -10,7 +10,7 @@
 }
 body
 {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     background-color: #444c4c;
@@ -114,12 +114,12 @@ body
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     border-radius: 5px;
     position: absolute;
-    top: 70%;
+    top: 15%;
     left: -100%;
-    transition: all.9s;
+    transition: all 1.9s;
     gap: 27px;
 }
 .cross
@@ -130,12 +130,17 @@ body
     margin-right: 3px;
     display: flex;
     align-items: center;
+    color: #fff;
 }
 #pess,#lugg,#child,#dis
 {
     text-decoration: none;
     font-size: 19px;
     color: #000;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #00ad1787;
     margin-bottom: 5px;
 }
 .pessenger h1
@@ -158,13 +163,19 @@ body
     justify-content: space-between;
     width: 83%;
     align-items: center;
-    font-family: monospace;
+    color: royalblue;
+    font-style: italic;
+    font-family: math;
+    font-size: 25px;
 }
 .total h2
 {
     display: flex;
     font-family: system-ui;
     gap: 40px;
+    color: green;
+    font-family: sans-serif;
+
 }
 #reset
 {
@@ -221,10 +232,81 @@ body
     width: 84%;
     align-items: center;
     font-family: math;
+    color: #185e5d;
+    font-style: italic;
+    font-size: 18px;
     font-size: 22px;
 }
 .pessanger1 h1 a,.luggage1 h1 a,.children1 h1 a,.diss1 h1 a{
     text-decoration: none;
-    color: #000;
-    font-size: 15px;
+    color: #07730a;
+    font-family: cursive;
+    font-size: 16px;
+}
+.vehicle_image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.bus_image img,.bus_image img
+{
+    height: 176px;
+    width: 400px;
+    object-fit: cover;
+    margin: 10px;
+    
+}
+.bus_image
+{
+    width: 430px;
+    height:190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choose_vehicle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choose_vehicle h1 
+{
+    margin: 10px;
+    font-family: cursive;
+    color: #210885;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    gap: 15px;
+}
+.main_header
+{
+    display: flex;
+    gap: 10px;
+}
+.name1
+{
+    color: rgb(0, 23, 197);
+    font-size: 50px;
+    font-family: cursive;
+}
+.name2
+{
+    color: #001e7d;
+    font-size: 50px;
+    font-family: cursive;
+}
+.name3
+{
+   color: #010365;
+   font-size: 50px;
+   font-family: cursive;
 }
